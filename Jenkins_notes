@@ -1,13 +1,25 @@
 JENKINS NOTES
-ChatGPT said:
-Jenkins Interview Preparation Guide
-Since you're transitioning to DevOps, this guide will focus on real-world Jenkins concepts and interview questions.
+
 
 1️⃣ Jenkins Basics
 Key Topics
 ✅ What is Jenkins? Why use it?
+What is Jenkins?
+"Jenkins is an open-source automation server used to automate the software development process, primarily for Continuous Integration and Continuous Deployment (CI/CD). It runs jobs, builds code, runs tests, and deploys applications based on defined pipelines."
+
+Why use it?
+"We use Jenkins to save time by automating repetitive tasks, catch bugs early with CI, and streamline deployments with CD. It’s highly customizable with plugins, scalable with agents, and free, making it ideal for improving efficiency and reliability in development workflows."
+
 ✅ Difference between Jenkins Freestyle and Jenkins Pipeline
+     Freestyle jobs are simple ui based  basic configurations but  jenkins pipeline is script based.   jenkins pipeline is highly customisable by freestyle is not .
+     error handling option is available in  pipeline based jenkins
 ✅ How does Jenkins integrate with Git, Maven, Docker, Kubernetes, and Ansible?
+ 
+Git	Git Plugin, Webhooks, git command
+Maven	Maven Plugin, mvn command
+Docker	Docker Plugin, Build & Push images
+Kubernetes	Kubernetes Plugin, Deploy apps with kubectl
+Ansible	Ansible Plugin, Run playbooks for configuration management
 
 Sample Questions
 🔹 What are the key features of Jenkins?
