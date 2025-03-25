@@ -1,0 +1,96 @@
+JENKINS NOTES
+ChatGPT said:
+Jenkins Interview Preparation Guide
+Since you're transitioning to DevOps, this guide will focus on real-world Jenkins concepts and interview questions.
+
+1️⃣ Jenkins Basics
+Key Topics
+✅ What is Jenkins? Why use it?
+✅ Difference between Jenkins Freestyle and Jenkins Pipeline
+✅ How does Jenkins integrate with Git, Maven, Docker, Kubernetes, and Ansible?
+
+Sample Questions
+🔹 What are the key features of Jenkins?
+🔹 How does Jenkins achieve continuous integration and continuous deployment (CI/CD)?
+🔹 How do you configure a GitHub webhook to trigger a Jenkins job?
+
+2️⃣ Jenkins Pipelines (Declarative & Scripted)
+Key Topics
+✅ Difference between Declarative and Scripted Pipelines
+✅ Pipeline stages: Agent, Stage, Steps, Post, Environment
+✅ Shared Libraries & Reusable Pipelines
+
+Sample Questions
+🔹 Write a simple Declarative Pipeline to build and deploy a Java app.
+🔹 What is the difference between node {} and agent any in a pipeline?
+🔹 How do you pass parameters between pipeline stages?
+
+3️⃣ Jenkins Plugins & Integrations
+Key Topics
+✅ Common plugins: Pipeline, Git, SonarQube, JUnit, Docker, Kubernetes
+✅ How Jenkins integrates with Ansible, Terraform, AWS, Kubernetes
+✅ Managing Jenkins plugins from CLI
+
+Sample Questions
+🔹 How do you install plugins in Jenkins via CLI?
+🔹 How does Jenkins integrate with Docker/Kubernetes for containerized deployments?
+🔹 What is the role of the Blue Ocean plugin?
+
+4️⃣ Jenkins Job Types & Scheduling
+Key Topics
+✅ Freestyle Jobs vs Pipeline Jobs
+✅ Parameterized Builds and Multibranch Pipelines
+✅ Scheduling jobs using cron expressions
+
+Sample Questions
+🔹 How do you trigger a Jenkins job using a cron expression?
+🔹 What is a Multibranch Pipeline, and why is it useful?
+🔹 How do you configure a parameterized build?
+
+5️⃣ Jenkins Distributed Builds (Master-Agent Setup)
+Key Topics
+✅ Difference between Master and Agent nodes
+✅ Configuring Jenkins Agents (SSH, JNLP, Docker-based agents)
+✅ Load balancing and high availability
+
+Sample Questions
+🔹 How do you add an agent node to a Jenkins master?
+🔹 What are the different ways to connect Jenkins Agents?
+🔹 How do you distribute builds across multiple agents?
+
+6️⃣ Jenkins Security & Performance
+Key Topics
+✅ Role-based access control (RBAC)
+✅ Securing Jenkins with LDAP, SSH, API Tokens
+✅ Best practices for Jenkins performance tuning
+
+Sample Questions
+🔹 How do you secure Jenkins from unauthorized access?
+🔹 What are some best practices for Jenkins performance optimization?
+🔹 How do you troubleshoot a slow Jenkins pipeline?
+
+7️⃣ Jenkins & DevOps (Real-World Scenarios)
+Key Topics
+✅ Implementing Blue-Green & Canary Deployments
+✅ Automating infrastructure with Jenkins + Ansible/Terraform
+✅ Deploying applications to AWS, Kubernetes (EKS), Docker Swarm
+
+Scenario-Based Questions
+🔹 How would you set up a CI/CD pipeline for a microservices app?
+🔹 How do you rollback a failed deployment in Jenkins?
+🔹 What steps would you take if a pipeline fails midway?
+
+🛠️ Hands-On Practice (Important for Interviews)
+✅ Build a Jenkins Pipeline for a Java/Maven Project
+
+✅ Integrate Jenkins with GitHub, Docker, Ansible, AWS, Kubernetes
+
+✅ Set up a Jenkins Agent in Docker
+
+✅ Secure Jenkins using RBAC & API Tokens
+
+🚀 Additional Resources
+📘 Jenkins Official Docs: https://www.jenkins.io/doc/
+🎥 YouTube: TechWorld with Nana, DevOps Toolkit
+📝 Practice Mock Tests: Udemy, Whizlabs
+
