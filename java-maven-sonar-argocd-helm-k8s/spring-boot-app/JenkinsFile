@@ -1,11 +1,11 @@
 pipeline {
-  agent any {
+  agent any 
   environment {
     DOCKER_IMAGE = "hari1683/ultimate-cicd:${BUILD_NUMBER}"
     SONAR_URL = "http://ec2-54-164-147-21.compute-1.amazonaws.com:9000"
   }
 
-  }
+  
   stages {
     stage('Checkout') {
       steps {
